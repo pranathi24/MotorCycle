@@ -1,10 +1,14 @@
-﻿namespace MotorCycle
+﻿
+using Motor;
+
+namespace MotorCycle
 {
-    internal class Program
+    internal class Program 
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, Worlds!");
+            MotorBrakes motorCycle = new MotorBrakes();
+            motorCycle.Brake();
         }
     }
 }
